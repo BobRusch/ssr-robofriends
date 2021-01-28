@@ -26,7 +26,7 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-class HomePage extends Component {
+class Home extends Component {
   componentDidMount() {
     this.props.onRequestRobots();
   }
@@ -82,4 +82,4 @@ class HomePage extends Component {
 }
 
 // action done from mapDispatchToProps will channge state from mapStateToProps
-export default connect(mapStateToProps, mapDispatchToProps)(HomePage);
+export default connect(mapStateToProps, mapDispatchToProps)(Home);
